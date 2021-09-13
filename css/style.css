@@ -1,0 +1,434 @@
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+  .container1 .searchbox {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 53px;
+    transition: 0.4s linear;
+    overflow: hidden;
+  }
+  .container1 .searchbox .searchbox__input {
+    display: block;
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color:#ffb82e ;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+  }
+  .container1 .searchbox .searchbox__input:hover {
+    display: block;
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: white ;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+  }
+  .container1 .searchbox .searchbox__input::placeholder {
+    color: #24233A;
+  }
+  .container1 .searchbox .searchbox__icon {
+    position: absolute;
+    right: calc(53px / 2);
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 50px;
+    height: 20px;
+    pointer-events: none;
+
+  }
+  .container1 .searchbox .searchbox__icon path {
+    fill: black;
+    transition: 0.4s linear;
+  }
+  .container1 .searchbox:focus-within {
+    max-width: 300px;
+  }
+
+  .btn-login{
+      background-color: #70C217;
+    color: white;
+
+  }
+  .btn-login:hover{
+    background-color: #7ad419;
+    color: white;
+
+}
+.btn-login-a{
+  text-decoration: none;
+  color: white;
+}
+.btn-login-a:hover{
+  text-decoration: none;
+  color: white;
+}
+  .btn-head{
+    background-color: #70C217;
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+  }
+  .btn-head:hover{
+    background-color: #7ad419;
+    color: white;
+}
+.hero_image {
+  background-image: url("../img/head-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+/* .social_network_img img{
+ 
+} */
+.social_network_heading h1{
+  font-size: 49px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-left: 15%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.social_network_img img{
+  position: relative;
+  left: 12px;
+  background:transparent;
+}
+.social_network_content {
+  margin-left: 15%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+
+}
+.work_area{
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+}
+.card-text{
+  color: #94a2b3;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.card-btn{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+.card-btn1{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+text-decoration: none;
+}
+.share-section{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+}
+.share-section1{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;}
+.member{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+.wait-section{
+  columns: #424345;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+}
+@media (max-width:380px){
+  .social_network_heading h1{
+      font-size: 25px;
+      margin-top: 30px;
+      margin-left: 15%;
+  }
+  .social_network_img img{
+      width: 300px;
+      height: auto;
+      margin: auto;
+      justify-content: center;
+
+  }
+  .social_network_content {
+  margin-left: 15%;
+}
+  .card{ 
+      max-width: 15rem;
+      text-align: center; 
+      margin: auto;
+      justify-content: center;
+      margin-top: 0;
+  }
+
+}
+
+.head-img{
+    width: 100%;
+}
+.share-img1{
+  position: relative;
+  top: -40px;
+}
+.share-img2{
+  position: relative;
+  top: 40px;
+}
+.share_section
+{
+    background-image: url(../images/bg2.png); 
+    width: 100%; 
+    margin: auto;
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.slider-img{
+  background: url('../img/workarea/textimonal.png');
+  width: 100%;
+  height: 620px;
+  margin: auto;
+  background-position: center center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+.slide {
+  margin-top:100px;
+  position: relative;
+  margin-top:100px;
+  top: 40px;
+	width: 100%;
+
+}
+
+.slide-text {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.testimonial-text {
+	font-weight: 300;
+
+  font-size: 26px;
+}
+
+
+.prev{
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	cursor: pointer;
+}
+.next {
+	width: 30%;
+	height: 50%;
+	position: absolute;
+	cursor: pointer;
+}
+
+.buttons {
+	transform: translateX(-50%);
+	width: 90px;
+	height: 45px;
+
+}
+.prev {
+	left: 0;
+}
+.next {
+	right: 0;
+}
+.next::after,
+.prev::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+.next::after {
+	background-image: url(../images/icon-next.svg);
+}
+.prev::after {
+	background-image: url(../images/icon-prev.svg);
+}
+.testimonial-text{
+  color: #94a2b3;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+}
+
+.support1{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+.support2{
+  color: #94a2b3;
+  font-size: 18px;
+  font-weight: 400;
+}
+.landing{
+  color: #2d2d2d;
+  font-size: 36px;
+  font-weight: 400;
+}
+@media only screen and (min-width: 768px) {
+	.slide {
+		flex-direction: row;
+		text-align: left;
+	}
+	.slide-text {
+		background-position: 10% top;
+		background-size: 100px;
+		align-items: flex-start;
+	}
+	.slide-img {
+		margin-left: -100px;
+		z-index: -1;
+	}
+	.slide-img img {
+		width: 400px;
+	}
+	.buttons {
+		top: 415px;
+		transform: translate(0);
+		left: calc(100% - 400px);
+	}
+}
+@media only screen and (max-width: 400px) {
+	.slide-img img {
+		width: 200px;
+	}
+	.slide-img {
+		padding: 10px;
+	}
+	.buttons {
+		top: 180px;
+	}
+	.none{
+		display: none;
+	}
+}
+
+
+.footer2{
+  background: #0B0D17;
+}
+.footer_nav a 
+{
+    text-decoration: none;
+    list-style: none;
+    /* word-spacing: 5px; */
+    padding-left: 15px;
+    
+
+}
+.footer_nav li{
+    /* letter-spacing: 3px; */
+    display: flex;
+justify-content: center;
+}
+
+.share_sec img{
+        margin-left: 20%;
+        margin-top: -25%;
+    }
+    .client_section
+    {
+        background: url("../images/home_images/people-section.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .user_pays_content p{
+        font-size: 30px;
+    }
+    .user_pays
+    {
+      background: linear-gradient(360deg, #FFB629 0%, rgba(252, 199, 97, 0.902083) 97.92%);
+        padding: 50px;
+    }
+    .user_profit img{
+            position: absolute;
+            
+        }
+        .footer_nav a 
+{
+text-decoration: none;
+list-style: none;
+/* word-spacing: 5px; */
+padding-left: 15px;
+
+
+}
+@media screen and (max-width:380px) {
+    .footer_nav li 
+    {
+        display: flex;
+        flex-direction:vertical;
+        padding-left: 0;
+        justify-content: left;
+    }
+    .footer li a{
+        width: 100%;
+    }
+    .footer1{
+      margin-top: 600px;
+    }
+    .head-img{
+      max-width: 100%;
+  }
+  .share-img2{
+    right: 50px;
+  }
+  .support
+  {
+position: relative;
+    margin-top: 200px;
+  }
+
+}
+
+

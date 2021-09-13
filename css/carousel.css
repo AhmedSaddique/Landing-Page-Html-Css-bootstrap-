@@ -1,0 +1,112 @@
+.carousel {
+  overflow: hidden;
+
+  position: relative;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+}
+
+.carousel .carousel__item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+}
+.text p {
+  color: #ffffff;
+  /* font-size: px; */
+  padding-left: 230px;
+  padding-right: 230px;
+  position: absolute;
+  top: 480PX;
+  /* bottom: 8px; */
+  width: 100%;
+  text-align: center;
+}
+.text img {
+  color: #ffffff;
+  /* font-size: px; */
+  padding-left: 320px;
+  padding-right: 320px;
+  position: absolute;
+  top: 450PX;
+  /* bottom: 8px; */
+  width: 20%;
+  height: 30px !important;
+  text-align: center;
+}
+.carousel .carousel__actions button#carousel__button--prev {
+  margin-left: 310px;
+  margin-top: 350px;
+  padding: 0%;
+}
+
+.carousel .carousel__actions button#carousel__button--next {
+  margin-right: 310px;
+  margin-top: 350px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
+}
+@media screen and (max-width: 1024px) {
+
+  .carousel .carousel__actions button#carousel__button--prev {
+    margin-left: 150px;
+    margin-top: 350px;
+    padding: 0%;
+  }
+  .carousel .carousel__actions button#carousel__button--next {
+    margin-right: 150px;
+    margin-top: 350px;
+  }
+  .text p{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  
+  }
+  .sub-cont{
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    /* padding-left: 260px; */
+    background: #fff;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+  }
